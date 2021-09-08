@@ -9,6 +9,9 @@ jongleerErvaring = int(input())
 print("Hoeveel jaar praktijk ervaring heeft u met acrobatiek?")
 acrobatiekErvaring = int(input())
 
+input("Hoeveel katten heeft u?\n")
+input("Hoeveel honden heeft u?\n")
+
 if(dierenDresuurErvaring > 4 or jongleerErvaring > 5 or acrobatiekErvaring > 3):
     print("Ben u in het bezit van een MBO-4 ondernemen diploma J/N")
     ondernemenDiploma = input()
@@ -21,6 +24,8 @@ if(dierenDresuurErvaring > 4 or jongleerErvaring > 5 or acrobatiekErvaring > 3):
             print("Bent u in het bezit van een hoge hoed? J/N")
             hogeHoed = input()
 
+            input("Hoeveel jaren één wieler ervaring heeft u?\n")
+            input("Hoeveel uur heeft u Bassie en Adriaan gezien?\n")
             if(hogeHoed == "j" or hogeHoed == "J"):
                 print("Wat is uw geslacht? M/V")
                 geslacht = input()
